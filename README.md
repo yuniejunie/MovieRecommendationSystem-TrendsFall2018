@@ -109,6 +109,25 @@ def get_recommendation(inputname,outputname,ratingDF,movieDF,movie_reviews_count
 
 ### Demonstration
 
+input:
+|userId|movieId|movieName|rating|
+|------|-------|---------|------|
+|0|260|Star Wars (1977)|1|
+|0|1|Toy Story (1995)|4|
+|0|16|Casino (1995)|3|
+|0|25|Leaving Las Vegas (1995)|4|
+|0|32|Twelve Monkeys (a.k.a. 12 Monkeys) (1995)|3|
+|0|335|Flintstones The (1994)|1|
+|0|379|Timecop (1994)|1|
+|0|296|Pulp Fiction (1994)|5| 
+|0|858|Godfather The (1972)|5| 
+|0|50|Usual Suspects The (1995)|4|
+|0|122912|Avengers: Infinity War - Part I (2018)|3|
+|0|143347|Aquaman (2018)|3|
+|0|164909|La La Land (2016)|5|
+|0|7451,Mean Girls (2004)|5|
+|0|8368,Harry Potter and the Prisoner of Azkaban (2004)|4|
+
 ```pyspark3
 inputname="s3://trendsmarketplacemsba2018fall/Input/new_user.csv"
 outputname="s3://trendsmarketplacemsba2018fall/output/output"
