@@ -183,6 +183,6 @@ get_recommendation(inputname,outputname,ratingDF,movieDF,movie_reviews_count)
 
 
 ### Reference
-1. [Collaborative Filtering - RDD-based API!] (https://spark.apache.org/docs/2.2.0/mllib-collaborative-filtering.html)
+1. [Collaborative Filtering - RDD-based API!](https://spark.apache.org/docs/2.2.0/mllib-collaborative-filtering.html)
 2. [Building a Movie Recommendation Service with Apache Spark & Flask!](https://www.codementor.io/jadianes/building-a-recommender-with-apache-spark-python-example-app-part1-du1083qbw)
 3. [Flask WebPage to showcase!](https://github.com/Armando8766/MovieRecommender)
