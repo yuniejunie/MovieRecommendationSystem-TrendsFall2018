@@ -110,6 +110,7 @@ def get_recommendation(inputname,outputname,ratingDF,movieDF,movie_reviews_count
 ### Demonstration
 
 input:
+
 | userId | movieId | movieName | rating |
 | ------ | ------- | --------- | ------ |
 | 0 | 260 | Star Wars (1977) | 1 |
