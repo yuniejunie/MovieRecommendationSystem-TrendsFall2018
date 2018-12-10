@@ -109,7 +109,13 @@ def get_recommendation(inputname,outputname,ratingDF,movieDF,movie_reviews_count
 
 ### Demonstration
 
-input:
+```pyspark3
+inputname="s3://trendsmarketplacemsba2018fall/Input/new_user.csv"
+outputname="s3://trendsmarketplacemsba2018fall/output/output"
+get_recommendation(inputname,outputname,ratingDF,movieDF,movie_reviews_count)
+```
+
+#### input
 
 | userId | movieId | movieName | rating |
 | ------ | ------- | --------- | ------ |
@@ -129,11 +135,17 @@ input:
 | 0 | 7451 | Mean Girls (2004) | 5 |
 | 0 | 8368 | Harry Potter and the Prisoner of Azkaban (2004) | 4 |
 
-```pyspark3
-inputname="s3://trendsmarketplacemsba2018fall/Input/new_user.csv"
-outputname="s3://trendsmarketplacemsba2018fall/output/output"
-get_recommendation(inputname,outputname,ratingDF,movieDF,movie_reviews_count)
-```
+#### Output
 
-
-
+| Average Rating | Movie | Genre |
+| ------ | ------- | --------- | ------ |
+| 3.68 | Piano, The (1993) | Drama|Romance |
+| 3.64 | Crying Game, The (1992) | Drama|Romance|Thriller |
+| 3.96 | Postman, The (Postino, Il) (1994) | Comedy|Drama|Romance |
+| 3.92 | Like Water for Chocolate (Como agua para chocolate) (1992) | Drama|Fantasy|Romance |
+| 3.64 | English Patient, The (1996) | Drama|Romance|War |
+| 3.89 | Remains of the Day, The (1993) | Drama|Romance |
+| 4.12 | Amelie (Fabuleux destin d'AmÃ©lie Poulain, Le) (2001) | Comedy|Romance |
+| 4.12 | Cinema Paradiso (Nuovo cinema Paradiso) (1989) | Drama |
+| 3.95 | Sense and Sensibility (1995) | Drama，Romance |
+| 3.48 | Muriel's Wedding (1994) | Comedy |
