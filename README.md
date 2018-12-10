@@ -149,3 +149,8 @@ get_recommendation(inputname,outputname,ratingDF,movieDF,movie_reviews_count)
 | 4.12 | Cinema Paradiso (Nuovo cinema Paradiso) (1989) | Drama |
 | 3.95 | Sense and Sensibility (1995) | Drama，Romance |
 | 3.48 | Muriel's Wedding (1994) | Comedy |
+
+
+### Reference
+1. [Collaborative Filtering - RDD-based API] (https://spark.apache.org/docs/2.2.0/mllib-collaborative-filtering.html)
+2. 
