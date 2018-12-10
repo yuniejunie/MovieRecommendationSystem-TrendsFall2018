@@ -4,6 +4,10 @@ Recommender sytsem
 
 ## AWS and PySpark
 
+## Process
+
+![Optional Text](../master/pic.jpg)
+
 ### Load packages and set sqlContext
 ```pyspark3
 from pyspark import SparkContext
@@ -152,5 +156,5 @@ get_recommendation(inputname,outputname,ratingDF,movieDF,movie_reviews_count)
 
 
 ### Reference
-1. [Collaborative Filtering - RDD-based API] (https://spark.apache.org/docs/2.2.0/mllib-collaborative-filtering.html)
+1. ![Collaborative Filtering - RDD-based API] (https://spark.apache.org/docs/2.2.0/mllib-collaborative-filtering.html)
 2. 
