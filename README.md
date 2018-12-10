@@ -138,7 +138,7 @@ get_recommendation(inputname,outputname,ratingDF,movieDF,movie_reviews_count)
 #### Output
 
 | Average Rating | Movie | Genre |
-| ------ | ------- | --------- | ------ |
+| -------------- | ----- | ----- |
 | 3.68 | Piano, The (1993) | Drama, Romance |
 | 3.64 | Crying Game, The (1992) | Drama,Romance,Thriller |
 | 3.96 | Postman, The (Postino, Il) (1994) | Comedy,Drama,Romance |
