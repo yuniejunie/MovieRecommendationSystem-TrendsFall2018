@@ -111,7 +111,7 @@ def get_recommendation(inputname,outputname,ratingDF,movieDF,movie_reviews_count
 
 input:
 | userId | movieId | movieName | rating |
-|----|:-----:|:-------:|----:|
+| ------ | ------- | --------- | ------ |
 | 0 | 260 | Star Wars (1977) | 1 |
 | 0 | 1 |Toy Story (1995) | 4 |
 | 0 | 16 | Casino (1995) | 3 |
