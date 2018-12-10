@@ -139,13 +139,13 @@ get_recommendation(inputname,outputname,ratingDF,movieDF,movie_reviews_count)
 
 | Average Rating | Movie | Genre |
 | ------ | ------- | --------- | ------ |
-| 3.68 | Piano, The (1993) | Drama|Romance |
-| 3.64 | Crying Game, The (1992) | Drama|Romance|Thriller |
-| 3.96 | Postman, The (Postino, Il) (1994) | Comedy|Drama|Romance |
-| 3.92 | Like Water for Chocolate (Como agua para chocolate) (1992) | Drama|Fantasy|Romance |
-| 3.64 | English Patient, The (1996) | Drama|Romance|War |
-| 3.89 | Remains of the Day, The (1993) | Drama|Romance |
-| 4.12 | Amelie (Fabuleux destin d'AmÃ©lie Poulain, Le) (2001) | Comedy|Romance |
+| 3.68 | Piano, The (1993) | Drama, Romance |
+| 3.64 | Crying Game, The (1992) | Drama,Romance,Thriller |
+| 3.96 | Postman, The (Postino, Il) (1994) | Comedy,Drama,Romance |
+| 3.92 | Like Water for Chocolate (Como agua para chocolate) (1992) | Drama,Fantasy,Romance |
+| 3.64 | English Patient, The (1996) | Drama,Romance,War |
+| 3.89 | Remains of the Day, The (1993) | Drama,Romance |
+| 4.12 | Amelie (Fabuleux destin d'AmÃ©lie Poulain, Le) (2001) | Comedy,Romance |
 | 4.12 | Cinema Paradiso (Nuovo cinema Paradiso) (1989) | Drama |
 | 3.95 | Sense and Sensibility (1995) | Drama，Romance |
 | 3.48 | Muriel's Wedding (1994) | Comedy |
